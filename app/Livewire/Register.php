@@ -4,10 +4,10 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class HomePage extends Component
+class Register extends Component
 {
     public function render()
     {
-        return view('livewire.home-page')->title('Accueil');
+        return view('livewire.register');
     }
 }
